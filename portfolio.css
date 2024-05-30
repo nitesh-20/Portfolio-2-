@@ -1,0 +1,90 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100&family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.slidebar{
+    background-color: rgb(192, 189, 189);
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+}
+.slidebar nav{
+    padding: 15px;
+    height: 94.9vh;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 90vw;
+    height: 100vh;
+    background-color: rgb(81, 81, 81);
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: red;
+    height: 60vh;
+    width: 82vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
+}
+
+/* .hello{
+    font-size: 30px;
+    
+}
+.name{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.about{
+    font-size: 25px;
+} */
+.moreabout{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+padding:5px ;
+border-radius: 20px;
+color: white;
+background-color: rgb(7, 139, 139);
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}
+.buttons button:hover{
+    color: rgb(196, 21, 21);
+    background-color: rgb(244, 245, 245);
+}
+
+.devPic img{
+    height: 60vh;
+}
